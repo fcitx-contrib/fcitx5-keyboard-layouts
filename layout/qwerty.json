@@ -5,52 +5,52 @@
       "rows": [
         {
           "keys": [
-            { "type": "key", "label": "q", "key": "q" },
-            { "type": "key", "label": "w", "key": "w" },
-            { "type": "key", "label": "e", "key": "e" },
-            { "type": "key", "label": "r", "key": "r" },
-            { "type": "key", "label": "t", "key": "t" },
-            { "type": "key", "label": "y", "key": "y" },
-            { "type": "key", "label": "u", "key": "u" },
-            { "type": "key", "label": "i", "key": "i" },
-            { "type": "key", "label": "o", "key": "o" },
-            { "type": "key", "label": "p", "key": "p" }
+            { "type": "key", "label": "q", "key": "q", "code": "KeyQ" },
+            { "type": "key", "label": "w", "key": "w", "code": "KeyW" },
+            { "type": "key", "label": "e", "key": "e", "code": "KeyE" },
+            { "type": "key", "label": "r", "key": "r", "code": "KeyR" },
+            { "type": "key", "label": "t", "key": "t", "code": "KeyT" },
+            { "type": "key", "label": "y", "key": "y", "code": "KeyY" },
+            { "type": "key", "label": "u", "key": "u", "code": "KeyU" },
+            { "type": "key", "label": "i", "key": "i", "code": "KeyI" },
+            { "type": "key", "label": "o", "key": "o", "code": "KeyO" },
+            { "type": "key", "label": "p", "key": "p", "code": "KeyP" }
           ]
         },
         {
           "keys": [
             { "type": "placeholder", "flex": "0.5" },
-            { "type": "key", "label": "a", "key": "a" },
-            { "type": "key", "label": "s", "key": "s" },
-            { "type": "key", "label": "d", "key": "d" },
-            { "type": "key", "label": "f", "key": "f" },
-            { "type": "key", "label": "g", "key": "g" },
-            { "type": "key", "label": "h", "key": "h" },
-            { "type": "key", "label": "j", "key": "j" },
-            { "type": "key", "label": "k", "key": "k" },
-            { "type": "key", "label": "l", "key": "l" },
+            { "type": "key", "label": "a", "key": "a", "code": "KeyA" },
+            { "type": "key", "label": "s", "key": "s", "code": "KeyS" },
+            { "type": "key", "label": "d", "key": "d", "code": "KeyD" },
+            { "type": "key", "label": "f", "key": "f", "code": "KeyF" },
+            { "type": "key", "label": "g", "key": "g", "code": "KeyG" },
+            { "type": "key", "label": "h", "key": "h", "code": "KeyH" },
+            { "type": "key", "label": "j", "key": "j", "code": "KeyJ" },
+            { "type": "key", "label": "k", "key": "k", "code": "KeyK" },
+            { "type": "key", "label": "l", "key": "l", "code": "KeyL" },
             { "type": "placeholder", "flex": "0.5" }
           ]
         },
         {
           "keys": [
             { "type": "shift", "flex": "1.5" },
-            { "type": "key", "label": "z", "key": "z" },
-            { "type": "key", "label": "x", "key": "x" },
-            { "type": "key", "label": "c", "key": "c" },
-            { "type": "key", "label": "v", "key": "v" },
-            { "type": "key", "label": "b", "key": "b" },
-            { "type": "key", "label": "n", "key": "n" },
-            { "type": "key", "label": "m", "key": "m" },
+            { "type": "key", "label": "z", "key": "z", "code": "KeyZ" },
+            { "type": "key", "label": "x", "key": "x", "code": "KeyX" },
+            { "type": "key", "label": "c", "key": "c", "code": "KeyC" },
+            { "type": "key", "label": "v", "key": "v", "code": "KeyV" },
+            { "type": "key", "label": "b", "key": "b", "code": "KeyB" },
+            { "type": "key", "label": "n", "key": "n", "code": "KeyN" },
+            { "type": "key", "label": "m", "key": "m", "code": "KeyM" },
             { "type": "backspace", "flex": "1.5" }
           ]
         },
         {
           "keys": [
             { "type": "symbol", "flex": "1.5" },
-            { "type": "key", "label": ",", "key": "," },
+            { "type": "key", "label": ",", "key": ",", "code": "Comma" },
             { "type": "space", "flex": "5" },
-            { "type": "key", "label": ".", "key": "." },
+            { "type": "key", "label": ".", "key": ".", "code": "Period" },
             { "type": "enter", "flex": "1.5" }
           ]
         }
@@ -61,52 +61,52 @@
       "rows": [
         {
           "keys": [
-            { "type": "key", "label": "Q", "key": "Q" },
-            { "type": "key", "label": "W", "key": "W" },
-            { "type": "key", "label": "E", "key": "E" },
-            { "type": "key", "label": "R", "key": "R" },
-            { "type": "key", "label": "T", "key": "T" },
-            { "type": "key", "label": "Y", "key": "Y" },
-            { "type": "key", "label": "U", "key": "U" },
-            { "type": "key", "label": "I", "key": "I" },
-            { "type": "key", "label": "O", "key": "O" },
-            { "type": "key", "label": "P", "key": "P" }
+            { "type": "key", "label": "Q", "key": "Q", "code": "KeyQ" },
+            { "type": "key", "label": "W", "key": "W", "code": "KeyW" },
+            { "type": "key", "label": "E", "key": "E", "code": "KeyE" },
+            { "type": "key", "label": "R", "key": "R", "code": "KeyR" },
+            { "type": "key", "label": "T", "key": "T", "code": "KeyT" },
+            { "type": "key", "label": "Y", "key": "Y", "code": "KeyY" },
+            { "type": "key", "label": "U", "key": "U", "code": "KeyU" },
+            { "type": "key", "label": "I", "key": "I", "code": "KeyI" },
+            { "type": "key", "label": "O", "key": "O", "code": "KeyO" },
+            { "type": "key", "label": "P", "key": "P", "code": "KeyP" }
           ]
         },
         {
           "keys": [
             { "type": "placeholder", "flex": "0.5" },
-            { "type": "key", "label": "A", "key": "A" },
-            { "type": "key", "label": "S", "key": "S" },
-            { "type": "key", "label": "D", "key": "D" },
-            { "type": "key", "label": "F", "key": "F" },
-            { "type": "key", "label": "G", "key": "G" },
-            { "type": "key", "label": "H", "key": "H" },
-            { "type": "key", "label": "J", "key": "J" },
-            { "type": "key", "label": "K", "key": "K" },
-            { "type": "key", "label": "L", "key": "L" },
+            { "type": "key", "label": "A", "key": "A", "code": "KeyA" },
+            { "type": "key", "label": "S", "key": "S", "code": "KeyS" },
+            { "type": "key", "label": "D", "key": "D", "code": "KeyD" },
+            { "type": "key", "label": "F", "key": "F", "code": "KeyF" },
+            { "type": "key", "label": "G", "key": "G", "code": "KeyG" },
+            { "type": "key", "label": "H", "key": "H", "code": "KeyH" },
+            { "type": "key", "label": "J", "key": "J", "code": "KeyJ" },
+            { "type": "key", "label": "K", "key": "K", "code": "KeyK" },
+            { "type": "key", "label": "L", "key": "L", "code": "KeyL" },
             { "type": "placeholder", "flex": "0.5" }
           ]
         },
         {
           "keys": [
             { "type": "shift", "flex": "1.5" },
-            { "type": "key", "label": "Z", "key": "Z" },
-            { "type": "key", "label": "X", "key": "X" },
-            { "type": "key", "label": "C", "key": "C" },
-            { "type": "key", "label": "V", "key": "V" },
-            { "type": "key", "label": "B", "key": "B" },
-            { "type": "key", "label": "N", "key": "N" },
-            { "type": "key", "label": "M", "key": "M" },
+            { "type": "key", "label": "Z", "key": "Z", "code": "KeyZ" },
+            { "type": "key", "label": "X", "key": "X", "code": "KeyX" },
+            { "type": "key", "label": "C", "key": "C", "code": "KeyC" },
+            { "type": "key", "label": "V", "key": "V", "code": "KeyV" },
+            { "type": "key", "label": "B", "key": "B", "code": "KeyB" },
+            { "type": "key", "label": "N", "key": "N", "code": "KeyN" },
+            { "type": "key", "label": "M", "key": "M", "code": "KeyM" },
             { "type": "backspace", "flex": "1.5" }
           ]
         },
         {
           "keys": [
             { "type": "symbol", "flex": "1.5" },
-            { "type": "key", "label": ",", "key": "," },
+            { "type": "key", "label": ",", "key": ",", "code": "Comma" },
             { "type": "space", "flex": "5" },
-            { "type": "key", "label": ".", "key": "." },
+            { "type": "key", "label": ".", "key": ".", "code": "Period" },
             { "type": "enter", "flex": "1.5" }
           ]
         }
