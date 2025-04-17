@@ -5,43 +5,43 @@
       "rows": [
         {
           "keys": [
-            { "type": "key", "label": "q", "key": "q", "code": "KeyQ" },
-            { "type": "key", "label": "w", "key": "w", "code": "KeyW" },
-            { "type": "key", "label": "e", "key": "e", "code": "KeyE" },
-            { "type": "key", "label": "r", "key": "r", "code": "KeyR" },
-            { "type": "key", "label": "t", "key": "t", "code": "KeyT" },
-            { "type": "key", "label": "y", "key": "y", "code": "KeyY" },
-            { "type": "key", "label": "u", "key": "u", "code": "KeyU" },
-            { "type": "key", "label": "i", "key": "i", "code": "KeyI" },
-            { "type": "key", "label": "o", "key": "o", "code": "KeyO" },
-            { "type": "key", "label": "p", "key": "p", "code": "KeyP" }
+            { "type": "key", "label": "q", "key": "q", "code": "KeyQ", "subLabel": { "topRight": "1" }, "swipeUp": [{ "type": "key", "key": "1", "code": "Digit1" }] },
+            { "type": "key", "label": "w", "key": "w", "code": "KeyW", "subLabel": { "topRight": "2" }, "swipeUp": [{ "type": "key", "key": "2", "code": "Digit2" }]  },
+            { "type": "key", "label": "e", "key": "e", "code": "KeyE", "subLabel": { "topRight": "3" }, "swipeUp": [{ "type": "key", "key": "3", "code": "Digit3" }]  },
+            { "type": "key", "label": "r", "key": "r", "code": "KeyR", "subLabel": { "topRight": "4" }, "swipeUp": [{ "type": "key", "key": "4", "code": "Digit4" }]  },
+            { "type": "key", "label": "t", "key": "t", "code": "KeyT", "subLabel": { "topRight": "5" }, "swipeUp": [{ "type": "key", "key": "5", "code": "Digit5" }]  },
+            { "type": "key", "label": "y", "key": "y", "code": "KeyY", "subLabel": { "topRight": "6" }, "swipeUp": [{ "type": "key", "key": "6", "code": "Digit6" }]  },
+            { "type": "key", "label": "u", "key": "u", "code": "KeyU", "subLabel": { "topRight": "7" }, "swipeUp": [{ "type": "key", "key": "7", "code": "Digit7" }]  },
+            { "type": "key", "label": "i", "key": "i", "code": "KeyI", "subLabel": { "topRight": "8" }, "swipeUp": [{ "type": "key", "key": "8", "code": "Digit8" }]  },
+            { "type": "key", "label": "o", "key": "o", "code": "KeyO", "subLabel": { "topRight": "9" }, "swipeUp": [{ "type": "key", "key": "9", "code": "Digit9" }]  },
+            { "type": "key", "label": "p", "key": "p", "code": "KeyP", "subLabel": { "topRight": "0" }, "swipeUp": [{ "type": "key", "key": "0", "code": "Digit0" }]  }
           ]
         },
         {
           "keys": [
             { "type": "placeholder", "flex": "0.5" },
-            { "type": "key", "label": "a", "key": "a", "code": "KeyA" },
-            { "type": "key", "label": "s", "key": "s", "code": "KeyS" },
-            { "type": "key", "label": "d", "key": "d", "code": "KeyD" },
-            { "type": "key", "label": "f", "key": "f", "code": "KeyF" },
-            { "type": "key", "label": "g", "key": "g", "code": "KeyG" },
-            { "type": "key", "label": "h", "key": "h", "code": "KeyH" },
-            { "type": "key", "label": "j", "key": "j", "code": "KeyJ" },
-            { "type": "key", "label": "k", "key": "k", "code": "KeyK" },
-            { "type": "key", "label": "l", "key": "l", "code": "KeyL" },
+            { "type": "key", "label": "a", "key": "a", "code": "KeyA", "subLabel": { "topRight": "@" }, "swipeUp": [{ "type": "key", "key": "@" }] },
+            { "type": "key", "label": "s", "key": "s", "code": "KeyS", "subLabel": { "topRight": "*" }, "swipeUp": [{ "type": "key", "key": "*" }] },
+            { "type": "key", "label": "d", "key": "d", "code": "KeyD", "subLabel": { "topRight": "+" }, "swipeUp": [{ "type": "key", "key": "+" }] },
+            { "type": "key", "label": "f", "key": "f", "code": "KeyF", "subLabel": { "topRight": "-" }, "swipeUp": [{ "type": "key", "key": "-", "code": "Minus" }] },
+            { "type": "key", "label": "g", "key": "g", "code": "KeyG", "subLabel": { "topRight": "^" }, "swipeUp": [{ "type": "key", "key": "^" }] },
+            { "type": "key", "label": "h", "key": "h", "code": "KeyH", "subLabel": { "topRight": "/" }, "swipeUp": [{ "type": "key", "key": "/", "code": "Slash" }] },
+            { "type": "key", "label": "j", "key": "j", "code": "KeyJ", "subLabel": { "topRight": "#" }, "swipeUp": [{ "type": "key", "key": "#" }] },
+            { "type": "key", "label": "k", "key": "k", "code": "KeyK", "subLabel": { "topRight": "(" }, "swipeUp": [{ "type": "key", "key": "(" }] },
+            { "type": "key", "label": "l", "key": "l", "code": "KeyL", "subLabel": { "topRight": ")" }, "swipeUp": [{ "type": "key", "key": ")" }] },
             { "type": "placeholder", "flex": "0.5" }
           ]
         },
         {
           "keys": [
             { "type": "shift", "flex": "1.5" },
-            { "type": "key", "label": "z", "key": "z", "code": "KeyZ" },
-            { "type": "key", "label": "x", "key": "x", "code": "KeyX" },
-            { "type": "key", "label": "c", "key": "c", "code": "KeyC" },
-            { "type": "key", "label": "v", "key": "v", "code": "KeyV" },
-            { "type": "key", "label": "b", "key": "b", "code": "KeyB" },
-            { "type": "key", "label": "n", "key": "n", "code": "KeyN" },
-            { "type": "key", "label": "m", "key": "m", "code": "KeyM" },
+            { "type": "key", "label": "z", "key": "z", "code": "KeyZ", "subLabel": { "topRight": "~" }, "swipeUp": [{ "type": "key", "key": "~" }] },
+            { "type": "key", "label": "x", "key": "x", "code": "KeyX", "subLabel": { "topRight": ":" }, "swipeUp": [{ "type": "key", "key": ":" }] },
+            { "type": "key", "label": "c", "key": "c", "code": "KeyC", "subLabel": { "topRight": ";" }, "swipeUp": [{ "type": "key", "key": ";", "code": "Semicolon" }] },
+            { "type": "key", "label": "v", "key": "v", "code": "KeyV", "subLabel": { "topRight": "?" }, "swipeUp": [{ "type": "key", "key": "?" }] },
+            { "type": "key", "label": "b", "key": "b", "code": "KeyB", "subLabel": { "topRight": "!" }, "swipeUp": [{ "type": "key", "key": "!" }] },
+            { "type": "key", "label": "n", "key": "n", "code": "KeyN", "subLabel": { "topRight": "'" }, "swipeUp": [{ "type": "key", "key": "'", "code": "Quote" }] },
+            { "type": "key", "label": "m", "key": "m", "code": "KeyM", "subLabel": { "topRight": "\"" }, "swipeUp": [{ "type": "key", "key": "\"" }] },
             { "type": "backspace", "flex": "1.5" }
           ]
         },
@@ -51,7 +51,7 @@
             { "type": "key", "label": ",", "key": ",", "code": "Comma" },
             { "type": "globe" },
             { "type": "space", "flex": "4" },
-            { "type": "key", "label": ".", "key": ".", "code": "Period" },
+            { "type": "key", "label": ".", "key": ".", "code": "Period", "subLabel": { "topRight": "\\" }, "swipeUp": [{ "type": "key", "key": "/", "code": "Backslash" }] },
             { "type": "enter", "flex": "1.5" }
           ]
         }
@@ -62,43 +62,43 @@
       "rows": [
         {
           "keys": [
-            { "type": "key", "label": "Q", "key": "Q", "code": "KeyQ" },
-            { "type": "key", "label": "W", "key": "W", "code": "KeyW" },
-            { "type": "key", "label": "E", "key": "E", "code": "KeyE" },
-            { "type": "key", "label": "R", "key": "R", "code": "KeyR" },
-            { "type": "key", "label": "T", "key": "T", "code": "KeyT" },
-            { "type": "key", "label": "Y", "key": "Y", "code": "KeyY" },
-            { "type": "key", "label": "U", "key": "U", "code": "KeyU" },
-            { "type": "key", "label": "I", "key": "I", "code": "KeyI" },
-            { "type": "key", "label": "O", "key": "O", "code": "KeyO" },
-            { "type": "key", "label": "P", "key": "P", "code": "KeyP" }
+            { "type": "key", "label": "Q", "key": "Q", "code": "KeyQ", "subLabel": { "topRight": "1" }, "swipeUp": [{ "type": "key", "key": "1", "code": "Digit1" }] },
+            { "type": "key", "label": "W", "key": "W", "code": "KeyW", "subLabel": { "topRight": "2" }, "swipeUp": [{ "type": "key", "key": "2", "code": "Digit2" }] },
+            { "type": "key", "label": "E", "key": "E", "code": "KeyE", "subLabel": { "topRight": "3" }, "swipeUp": [{ "type": "key", "key": "3", "code": "Digit3" }] },
+            { "type": "key", "label": "R", "key": "R", "code": "KeyR", "subLabel": { "topRight": "4" }, "swipeUp": [{ "type": "key", "key": "4", "code": "Digit4" }] },
+            { "type": "key", "label": "T", "key": "T", "code": "KeyT", "subLabel": { "topRight": "5" }, "swipeUp": [{ "type": "key", "key": "5", "code": "Digit5" }] },
+            { "type": "key", "label": "Y", "key": "Y", "code": "KeyY", "subLabel": { "topRight": "6" }, "swipeUp": [{ "type": "key", "key": "6", "code": "Digit6" }] },
+            { "type": "key", "label": "U", "key": "U", "code": "KeyU", "subLabel": { "topRight": "7" }, "swipeUp": [{ "type": "key", "key": "7", "code": "Digit7" }] },
+            { "type": "key", "label": "I", "key": "I", "code": "KeyI", "subLabel": { "topRight": "8" }, "swipeUp": [{ "type": "key", "key": "8", "code": "Digit8" }] },
+            { "type": "key", "label": "O", "key": "O", "code": "KeyO", "subLabel": { "topRight": "9" }, "swipeUp": [{ "type": "key", "key": "9", "code": "Digit9" }] },
+            { "type": "key", "label": "P", "key": "P", "code": "KeyP", "subLabel": { "topRight": "0" }, "swipeUp": [{ "type": "key", "key": "0", "code": "Digit0" }] }
           ]
         },
         {
           "keys": [
             { "type": "placeholder", "flex": "0.5" },
-            { "type": "key", "label": "A", "key": "A", "code": "KeyA" },
-            { "type": "key", "label": "S", "key": "S", "code": "KeyS" },
-            { "type": "key", "label": "D", "key": "D", "code": "KeyD" },
-            { "type": "key", "label": "F", "key": "F", "code": "KeyF" },
-            { "type": "key", "label": "G", "key": "G", "code": "KeyG" },
-            { "type": "key", "label": "H", "key": "H", "code": "KeyH" },
-            { "type": "key", "label": "J", "key": "J", "code": "KeyJ" },
-            { "type": "key", "label": "K", "key": "K", "code": "KeyK" },
-            { "type": "key", "label": "L", "key": "L", "code": "KeyL" },
+            { "type": "key", "label": "A", "key": "A", "code": "KeyA", "subLabel": { "topRight": "@" }, "swipeUp": [{ "type": "key", "key": "@" }] },
+            { "type": "key", "label": "S", "key": "S", "code": "KeyS", "subLabel": { "topRight": "*" }, "swipeUp": [{ "type": "key", "key": "*" }] },
+            { "type": "key", "label": "D", "key": "D", "code": "KeyD", "subLabel": { "topRight": "+" }, "swipeUp": [{ "type": "key", "key": "+" }] },
+            { "type": "key", "label": "F", "key": "F", "code": "KeyF", "subLabel": { "topRight": "-" }, "swipeUp": [{ "type": "key", "key": "-", "code": "Minus" }] },
+            { "type": "key", "label": "G", "key": "G", "code": "KeyG", "subLabel": { "topRight": "^" }, "swipeUp": [{ "type": "key", "key": "^" }] },
+            { "type": "key", "label": "H", "key": "H", "code": "KeyH", "subLabel": { "topRight": "/" }, "swipeUp": [{ "type": "key", "key": "/", "code": "Slash" }] },
+            { "type": "key", "label": "J", "key": "J", "code": "KeyJ", "subLabel": { "topRight": "#" }, "swipeUp": [{ "type": "key", "key": "#" }] },
+            { "type": "key", "label": "K", "key": "K", "code": "KeyK", "subLabel": { "topRight": "(" }, "swipeUp": [{ "type": "key", "key": "(" }] },
+            { "type": "key", "label": "L", "key": "L", "code": "KeyL", "subLabel": { "topRight": ")" }, "swipeUp": [{ "type": "key", "key": ")" }] },
             { "type": "placeholder", "flex": "0.5" }
           ]
         },
         {
           "keys": [
             { "type": "shift", "flex": "1.5" },
-            { "type": "key", "label": "Z", "key": "Z", "code": "KeyZ" },
-            { "type": "key", "label": "X", "key": "X", "code": "KeyX" },
-            { "type": "key", "label": "C", "key": "C", "code": "KeyC" },
-            { "type": "key", "label": "V", "key": "V", "code": "KeyV" },
-            { "type": "key", "label": "B", "key": "B", "code": "KeyB" },
-            { "type": "key", "label": "N", "key": "N", "code": "KeyN" },
-            { "type": "key", "label": "M", "key": "M", "code": "KeyM" },
+            { "type": "key", "label": "Z", "key": "Z", "code": "KeyZ", "subLabel": { "topRight": "~" }, "swipeUp": [{ "type": "key", "key": "~" }] },
+            { "type": "key", "label": "X", "key": "X", "code": "KeyX", "subLabel": { "topRight": ":" }, "swipeUp": [{ "type": "key", "key": ":" }] },
+            { "type": "key", "label": "C", "key": "C", "code": "KeyC", "subLabel": { "topRight": ";" }, "swipeUp": [{ "type": "key", "key": ";", "code": "Semicolon" }] },
+            { "type": "key", "label": "V", "key": "V", "code": "KeyV", "subLabel": { "topRight": "?" }, "swipeUp": [{ "type": "key", "key": "?" }] },
+            { "type": "key", "label": "B", "key": "B", "code": "KeyB", "subLabel": { "topRight": "!" }, "swipeUp": [{ "type": "key", "key": "!" }] },
+            { "type": "key", "label": "N", "key": "N", "code": "KeyN", "subLabel": { "topRight": "'" }, "swipeUp": [{ "type": "key", "key": "'", "code": "Quote" }] },
+            { "type": "key", "label": "M", "key": "M", "code": "KeyM", "subLabel": { "topRight": "\"" }, "swipeUp": [{ "type": "key", "key": "\"" }] },
             { "type": "backspace", "flex": "1.5" }
           ]
         },
@@ -108,7 +108,7 @@
             { "type": "key", "label": ",", "key": ",", "code": "Comma" },
             { "type": "globe" },
             { "type": "space", "flex": "4" },
-            { "type": "key", "label": ".", "key": ".", "code": "Period" },
+            { "type": "key", "label": ".", "key": ".", "code": "Period", "subLabel": { "topRight": "\\" }, "swipeUp": [{ "type": "key", "key": "/", "code": "Backslash" }] },
             { "type": "enter", "flex": "1.5" }
           ]
         }
