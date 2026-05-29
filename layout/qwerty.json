@@ -152,7 +152,10 @@
         {
           "keys": [
             { "type": "symbol", "flex": "1.5" },
-            { "type": "key", "label": ",", "key": ",", "code": "Comma" },
+            {
+              "type": "key", "label": ",", "key": ",", "code": "Comma", "longPress": {
+              "cells": [{ "type": "unicode" }, { "type": "emoji" }, { "type": "quickphrase" }], "index": 1 }
+            },
             { "type": "globe" },
             { "type": "space", "flex": "4" },
             {
@@ -317,7 +320,10 @@
         {
           "keys": [
             { "type": "symbol", "flex": "1.5" },
-            { "type": "key", "label": ",", "key": ",", "code": "Comma" },
+            {
+              "type": "key", "label": ",", "key": ",", "code": "Comma", "longPress": {
+              "cells": [{ "type": "unicode" }, { "type": "emoji" }, { "type": "quickphrase" }], "index": 1 }
+            },
             { "type": "globe" },
             { "type": "space", "flex": "4" },
             {
